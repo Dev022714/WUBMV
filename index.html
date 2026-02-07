@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will You Be My Valentine?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- RAINING HEARTS -->
+  <div class="hearts"></div>
+
+  <!-- MAIN CARD -->
+  <div class="card" id="card">
+    <h1>Will you be my Valentine? 💖</h1>
+
+    <div class="buttons">
+      <button id="yesBtn">Yes 💕</button>
+      <button id="noBtn">No 💔</button>
+    </div>
+  </div>
+
+  <!-- FINAL MESSAGE -->
+  <div class="final hidden" id="final">
+    <h1>I love you so much 💗</h1>
+    <p>🎶 <i>I can't help falling in love with you</i> 🎶</p>
+
+    <!-- MUSIC CONTROLS -->
+    <div class="music-player">
+      <button id="playPause">⏸</button>
+      <input type="range" id="seekBar" value="0">
+    </div>
+  </div>
+
+  <!-- AUDIO -->
+  <audio id="song">
+    <source src="fallinginlove.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
